@@ -1,5 +1,4 @@
 import CartProducts from "../components/CartProducts";
-// import Payment from "../components/Payment";
 import useShop from "../ShopContext";
 
 const Cart = () => {

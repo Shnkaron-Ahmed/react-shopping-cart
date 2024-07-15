@@ -1,15 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-body {
-	font-family: "Poppins", sans-serif;
-}
 
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f4f8;
     color: #333;
     margin: 0;
     padding: 0;
+    font-style: bold;
 }
 
 /* Container */
@@ -209,3 +205,190 @@ body {
     color: #4c4c4c;
     cursor: pointer;
   }
+  
+.about-container {
+    padding: 1.5rem;
+    max-width: 64rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.about-title {
+    font-size: 1.875rem; /* 3xl */
+    font-weight: bold;
+    color: #1F2937; /* gray-900 */
+    margin-bottom: 1.5rem; /* mb-6 */
+    text-align: center;
+}
+
+.about-text {
+    font-size: 1.125rem; /* lg */
+    color: #1F2937; /* gray-800 */
+    text-align: left;
+}
+
+.about-highlight {
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    color: #3B82F6; /* blue-500 */
+}
+
+.about-block {
+    display: block;
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+
+.contact-section {
+    padding: 2.5rem 1rem;
+    background-color: #f3f4f6; /* bg-gray-100 */
+}
+
+.container {
+    max-width: 64rem; /* max-w-7xl */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2.5rem; /* mb-10 */
+}
+
+.header h2 {
+    font-size: 2rem; /* text-3xl */
+    font-weight: 700; /* font-bold */
+    color: #1f2937; /* text-gray-900 */
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+.header p {
+    font-size: 1rem; /* text-base */
+    color: #6b7280; /* text-gray-500 */
+    max-width: 36rem; /* max-w-xl */
+    margin: 0 auto;
+}
+
+.form-container {
+    max-width: 28rem; /* max-w-lg */
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem; /* gap-y-6 */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: none; /* sr-only */
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.75rem 1rem; /* px-4 py-3 */
+    font-size: 1rem; /* text-base */
+    color: #1f2937; /* text-gray-900 */
+    background-color: #f9fafb; /* bg-gray-50 */
+    border: 1px solid transparent;
+    border-radius: 0.5rem; /* rounded-lg */
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #3b82f6; /* focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300 */
+}
+
+.submit-button {
+    padding: 0.75rem 1.5rem; /* px-6 py-3 */
+    font-size: 1rem; /* text-base */
+    font-weight: 500; /* font-medium */
+    color: #ffffff; /* text-white */
+    background-color: #2563eb; /* bg-blue-600 */
+    border: none;
+    border-radius: 0.5rem; /* rounded-lg */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #1d4ed8; /* hover:bg-blue-500 */
+}
+
+.user-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .user-form form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .user-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .user-list button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  

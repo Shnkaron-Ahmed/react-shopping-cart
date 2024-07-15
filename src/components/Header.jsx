@@ -13,8 +13,9 @@ const Header = () => {
 				<Link to="/">Home</Link>
 				<Link to="/about">About</Link>
 				<Link to="/contact">Contact</Link>
+				<Link to="/Form">Form</Link>
 				<Link to="/cart">Cart</Link>
-				{/* <Link to="/form">FormLogin</Link> */}
+				
 			</div>
 			<Link to="/cart">
 				<span className="cart">{products.length}</span>

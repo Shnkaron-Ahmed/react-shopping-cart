@@ -6,7 +6,10 @@ import About from './pages/About';
 import Cart from './pages/Cart';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import Form from './pages/Form';
 import './Styles.css';
+
+// Define the App component which uses React Router to navigate between pages.
 
 function App() {
     return (
@@ -21,6 +24,9 @@ function App() {
                 </Route>
                 <Route path="/contact" element={<Contact />}>
                     About
+                </Route>
+                <Route path="/Form" element={<Form />}>
+                    Form
                 </Route>
                 <Route path="/cart" element={<Cart />}>
                     Cart
